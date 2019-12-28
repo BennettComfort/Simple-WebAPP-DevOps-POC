@@ -1,9 +1,4 @@
 This certainly isn't a necessary file per say.. however I like to put my general gedit notes in source control. 
 
--- switched operating systems from macOS to ubuntu 19.10 for consistency and I struggle to like non-linux OS's ¯\_(ツ)_/¯
 
--- Requirements
-    apache2
-    mod_wsgi
-    flask
 

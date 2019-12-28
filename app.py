@@ -5,7 +5,7 @@ import uuid
 # Intialize the flask app
 app = Flask(__name__)
 
-@APP.route('/')
+@app.route('/')
 def get_uuid():
     """ Function to respond to route
         Return UUID as a string response

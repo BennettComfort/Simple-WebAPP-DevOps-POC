@@ -1,5 +1,6 @@
 # Import Dependencies
 from flask import Flask
+from waitress import serve
 
 import uuid
 import os
@@ -23,3 +24,5 @@ def get_uuid():
     """
     return str(uuid.uuid4())
 
+if __name__ == "__main__":
+    serve(app, listen='*:8080')

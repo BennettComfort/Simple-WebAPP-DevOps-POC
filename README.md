@@ -10,7 +10,7 @@ This project builds a containerized web application using docker and flask. Afte
 
 > sudo docker run -p 49160:8080 -d bennett/simple-webapp-devops-poc
 
-enter 0.0.0.0:41029 in your browser
+enter 0.0.0.0:49160 in your browser
 
 ### Requirements
 1. Docker installed on machine

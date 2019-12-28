@@ -3,12 +3,15 @@
 
 > I am using Ubuntu 19.10 operating system and visual studio code to develop this web application FYI
 
-This project builds a containerized web application using docker and flask. After building the docker image, running the image a page will be created on 0.0.0.0:41029 that returns a UUID in form a string
+This project builds a containerized web application using docker and flask. After building the docker image, running the image a page will be created on 0.0.0.0:49160 that returns a UUID in form a string
 
 ### Steps
-> sudo docker build -t bennett/simple-webapp-devops-poc .
 
-> sudo docker run -p 49160:8080 -d bennett/simple-webapp-devops-poc
+> pip install -r requirements.txt
+
+> sudo docker build -t sysadmin/simple-webapp-devops-poc .
+
+> sudo docker run -p 49160:8080 -d sysadmin/simple-webapp-devops-poc
 
 enter 0.0.0.0:49160 in your browser
 
